@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "number": "01",
+    "title": "序篇",
+    "image": "/assets/images/chapter_bgs/preface.png"
+  },
+  {
+    "id": 2,
+    "number": "02",
+    "title": "地理资源篇",
+    "image": "/assets/images/chapter_bgs/geo_resources.png"
+  },
+  {
+    "id": 3,
+    "number": "03",
+    "title": "资源管理篇",
+    "image": "/assets/images/chapter_bgs/resource_mgmt.png"
+  },
+  {
+    "id": 4,
+    "number": "04",
+    "title": "赓续发展篇",
+    "image": "/assets/images/chapter_bgs/development.png"
+  },
+  {
+    "id": 5,
+    "number": "05",
+    "title": "城市名片篇",
+    "image": "/assets/images/chapter_bgs/city_card.png"
+  }
+]

@@ -1,0 +1,881 @@
+{
+  "version": 8,
+  "name": "Basic",
+  "metadata": {
+    "mapbox:autocomposite": false,
+    "mapbox:type": "template",
+    "maputnik:renderer": "mbgljs",
+    "openmaptiles:version": "3.x",
+    "openmaptiles:mapbox:owner": "openmaptiles",
+    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
+  },
+  "terrain": {"exaggeration": 0},
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=HMcoWV4vYRMsVcY9TTFb"
+    },
+    "textures1": {
+      "type": "raster",
+      "tiles": [
+        "https://t0.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=1b4f54a9ee5f95de4fcd0eaf4df87e5f"
+      ],
+      "minzoom": 7,
+      "maxzoom": 20,
+      "scheme": "xyz",
+      "tileSize": 256
+    },
+    "resource": {
+      "type": "vector",
+      "url": "pmtiles://http://139.224.215.240:9876/directlink/1/nature_resource_4_17.pmtiles"
+    },
+    "森林公园-林场": {
+      "type": "geojson",
+      "cluster": false,
+      "data": {
+        "type": "FeatureCollection",
+        "name": "森林公园_林场",
+        "crs": {
+          "type": "name",
+          "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {"name": "龙潭", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.97795187278959, 23.53939570268613]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "平天山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.46999999960441, 23.192870000380626]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "九龙瀑布群", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.15475999984126, 23.043050000120722]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "良凤江", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [108.28273999991934, 22.725140000560007]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "十万大山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [107.90499999976741, 21.907499999673313]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "龙滩大峡谷", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [107.15970300010287, 24.983123999351132]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "根旦", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [107.01581721405327, 24.650058276815216]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "龙峡山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [107.3612152973692, 22.382073926131575]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "红茶沟", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.35925496135617, 25.225961471938742]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "元宝山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.15730639034054, 25.39911993395381]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "龙胜温泉", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [110.20768999965601, 25.894819999335866]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "八角寨", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [110.67854670124466, 26.25138877458328]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "桂林", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [110.24371530503002, 25.23741840205922]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "黄猄洞天坑", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [106.43240920098832, 24.820527551423762]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "大容山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [110.27965474801151, 22.85557261767451]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "太平狮山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [110.73589597358479, 23.63617364797507]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "飞龙湖", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [111.46373997269743, 23.817142655132685]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "大瑶山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [110.12987940411521, 24.152758387150186]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "姑婆山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [111.56321257276578, 24.595161440951394]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "大桂山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [111.70757000025064, 24.16440000001691]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "三门江", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.48877464440697, 24.371824541478748]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "狮子山", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [110.71534449059453, 24.507710419185912]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "派阳山林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [107.06098552021939, 22.122526110394553]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "东门林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [107.83962638536165, 22.331388034610747]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "七坡林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [108.32600148521372, 22.75046598783444]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "高峰林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [108.334079285248, 22.874641220028373]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "南宁树木园", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [108.28413422724275, 22.728421436286418]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "钦廉林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [108.67975900450499, 21.945862954125445]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "博白林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.93440457966275, 22.174407549591404]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "六万林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.8952674202975, 22.741559415294525]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "维都林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.21755295193532, 23.737558876186306]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "大桂山林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [111.5234279997131, 24.414561000370053]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "三门江林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.48639496533005, 24.35070558990166]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "黄冕林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [109.75434907023023, 24.483517040278876]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "雅长林场", "type": "国有林场"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [106.30574858667376, 24.836768256328]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {"name": "阳朔", "type": "森林公园"},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [110.48935499986209, 24.776707000146484]
+            }
+          }
+        ]
+      }
+    },
+    "quhua": {
+      "type": "vector",
+      "url": "pmtiles://http://139.224.215.240:9876/directlink/1/guangxi_quhua.pmtiles"
+    }
+  },
+  "sprite": "https://baitianyi.github.io/pmtiles-netlify-host/sprite/sprite",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=HMcoWV4vYRMsVcY9TTFb",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "maxzoom": 20,
+      "paint": {"background-color": "hsl(47, 26%, 88%)"}
+    },
+    {
+      "id": "ziranziyuan-textures",
+      "type": "raster",
+      "source": "textures1",
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
+    },
+    {
+      "id": "qiaomulin",
+      "type": "fill",
+      "source": "resource",
+      "source-layer": "3林乔木林地",
+      "maxzoom": 17,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(89, 159, 88, 1)","fill-opacity": 0.8}
+    },
+    {
+      "id": "guanmulin1",
+      "type": "fill",
+      "source": "resource",
+      "source-layer": "3林灌木林地",
+      "maxzoom": 17,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(197, 227, 120, 1)", "fill-opacity": 0.8}
+    },
+    {
+      "id": "qitalin1",
+      "type": "fill",
+      "source": "resource",
+      "source-layer": "3林其他林地",
+      "minzoom": 6,
+      "maxzoom": 17,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(226, 239, 139, 1)", "fill-opacity": 0.8}
+    },
+    {
+      "id": "guangxi-quhua",
+      "type": "line",
+      "source": "quhua",
+      "source-layer": "行政区划界限",
+      "paint": {"line-color": "rgba(246, 243, 243, 1)", "line-width": 2}
+    },
+    {
+      "id": "waterway",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "filter": [
+        "all",
+        ["==", "$type", "LineString"],
+        ["!in", "brunnel", "tunnel", "bridge"],
+        ["!=", "intermittent", 1]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "hsl(205, 56%, 73%)",
+        "line-opacity": 1,
+        "line-width": {"base": 1.4, "stops": [[8, 1], [20, 8]]}
+      }
+    },
+    {
+      "id": "icon-nanning",
+      "type": "circle",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "filter": ["all", ["==", "name", "南宁市"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "circle-color": "rgba(230, 94, 11, 1)",
+        "circle-radius": 6,
+        "circle-stroke-width": 1.3,
+        "circle-stroke-color": "rgba(252, 243, 243, 1)"
+      }
+    },
+    {
+      "id": "circle-layer-icon",
+      "type": "circle",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "filter": [
+        "all",
+        ["==", "$type", "Point"],
+        ["==", "class", "city"],
+        [
+          "in",
+          "name",
+          "百色市",
+          "崇左市",
+          "防城港市",
+          "钦州市",
+          "北海市",
+          "玉林市",
+          "北海市",
+          "贵港市",
+          "梧州市",
+          "贺州市",
+          "桂林市",
+          "来宾市",
+          "柳州市",
+          "河池市"
+        ]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "circle-color": "rgba(243, 166, 4, 1)",
+        "circle-stroke-color": "rgba(237, 236, 236, 1)",
+        "circle-stroke-width": 1,
+        "circle-radius": 5
+      }
+    },
+    {
+      "id": "place_label_city-fangchenggang",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "maxzoom": 16,
+      "filter": [
+        "all",
+        ["==", "$type", "Point"],
+        ["==", "class", "city"],
+        ["==", "name", "防城港市"]
+      ],
+      "layout": {
+        "text-field": "{name:nonlatin}",
+        "text-font": ["Noto Sans Regular"],
+        "text-max-width": 10,
+        "text-size": {"stops": [[3, 12], [8, 16]]},
+        "icon-size": 1,
+        "text-offset": [2.5, 0],
+        "icon-offset": [2.5, 0]
+      },
+      "paint": {
+        "text-color": "rgba(208, 100, 9, 1)",
+        "text-halo-blur": 0,
+        "text-halo-color": "hsla(0, 0%, 100%, 0.75)",
+        "text-halo-width": 2,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "place_label_city",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "minzoom": 4,
+      "maxzoom": 16,
+      "filter": [
+        "all",
+        ["==", "$type", "Point"],
+        ["==", "class", "city"],
+        [
+          "in",
+          "name",
+          "百色市",
+          "崇左市",
+          "钦州市",
+          "北海市",
+          "玉林市",
+          "北海市",
+          "贵港市",
+          "梧州市",
+          "贺州市",
+          "桂林市",
+          "来宾市",
+          "柳州市",
+          "河池市"
+        ]
+      ],
+      "layout": {
+        "text-field": "{name:nonlatin}",
+        "text-font": ["Noto Sans Regular"],
+        "text-max-width": 10,
+        "text-size": {"stops": [[3, 15], [8, 16]]},
+        "icon-size": 1,
+        "text-offset": [2, 0],
+        "text-allow-overlap": true,
+        "text-padding": 0.5
+      },
+      "paint": {
+        "text-color": "rgba(208, 100, 9, 1)",
+        "text-halo-blur": 0,
+        "text-halo-color": "hsla(0, 0%, 100%, 0.75)",
+        "text-halo-width": 2,
+        "text-opacity": 1
+      }
+    },
+     {
+      "id": "森林公园",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": [
+        "all",
+        ["==", "type", "森林公园"],
+        ["!=", "name", "良凤江"],
+        ["!=", "name", "龙峡山"],
+        ["!=", "name", "桂林"],
+        ["!=", "name", "三门江"]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 15,
+        "icon-image": "forest",
+        "icon-size": 0.1,
+        "icon-offset": [-100, -200]
+      },
+      "paint": {
+        "text-halo-color": "rgba(239, 240, 240, 1)",
+        "text-color": "rgba(3, 60, 98, 1)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "森林公园-龙峡山",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "森林公园"], ["in", "name", "龙峡山"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 15,
+        "visibility": "visible",
+        "text-offset": [-3, -1.5],
+        "icon-size": 0.1,
+        "icon-offset": [-130, -240],
+        "icon-image": "forest"
+      },
+      "paint": {
+        "text-halo-color": "rgba(239, 240, 240, 1)",
+        "text-color": "rgba(3, 60, 98, 1)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "森林公园-良风江",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "森林公园"], ["in", "name", "良凤江"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 15,
+        "visibility": "visible",
+        "text-offset": [-2.8, 0.5],
+        "icon-image": "forest",
+        "icon-size": 0.1,
+        "icon-offset": [-100, 100]
+      },
+      "paint": {
+        "text-halo-color": "rgba(239, 240, 240, 1)",
+        "text-color": "rgba(3, 60, 98, 1)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "森林公园-三门江",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "森林公园"], ["in", "name", "三门江"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 15,
+        "visibility": "visible",
+        "text-offset": [-2.1, -1.2],
+        "icon-image": "forest",
+        "icon-size": 0.1,
+        "icon-offset": [10, -180]
+      },
+      "paint": {
+        "text-halo-color": "rgba(239, 240, 240, 1)",
+        "text-color": "rgba(3, 60, 98, 1)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "森林公园-桂林",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "森林公园"], ["in", "name", "桂林"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 15,
+        "visibility": "visible",
+        "text-offset": [4, -3],
+        "icon-image": "forest",
+        "icon-size": 0.1,
+        "icon-offset": [330, -450]
+      },
+      "paint": {
+        "text-halo-color": "rgba(239, 240, 240, 1)",
+        "text-color": "rgba(3, 60, 98, 1)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "林场",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": [
+        "all",
+        ["==", "type", "国有林场"],
+        [
+          "!in",
+          "name",
+          "东门林场",
+          "高峰林场",
+          "七坡林场",
+          "钦廉林场",
+          "三门江林场",
+          "维都林场",
+          "南宁树木园",
+          "大桂山林场"
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [-100, -200]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "林场-七坡林场",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "国有林场"], ["in", "name", "七坡林场"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "text-offset": [-4, -2],
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [-800, -500]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "林场-高峰林场",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "国有林场"], ["in", "name", "高峰林场"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "text-offset": [-1, -2],
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [-110, -85]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "林场-钦廉林场",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "国有林场"], ["==", "name", "钦廉林场"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "text-offset": [6, -2],
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [800, -90]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "林场-三门江林场",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "国有林场"], ["==", "name", "三门江林场"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "text-offset": [1, 2.5],
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [650, 340]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "林场-维都林场",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "国有林场"], ["==", "name", "维都林场"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "text-offset": [2, 2.5],
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [-150, 330]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "林场-南宁树木园",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "国有林场"], ["==", "name", "南宁树木园"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [160, 90],
+        "text-offset": [4.5, 1]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "林场-大桂山林场",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "国有林场"], ["==", "name", "大桂山林场"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "text-offset": [0, 1.5],
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [500, 210]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "林场-东门林场",
+      "type": "symbol",
+      "source": "森林公园-林场",
+      "minzoom": 6,
+      "maxzoom": 18,
+      "filter": ["all", ["==", "type", "国有林场"], ["==", "name", "东门林场"]],
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "text-offset": [-2.6, -2.6],
+        "icon-image": "forest_park",
+        "icon-size": 0.1,
+        "icon-offset": [-760, -340]
+      },
+      "paint": {
+        "text-color": "rgba(17, 89, 1, 1)",
+        "text-halo-color": "rgba(250, 250, 250, 1)",
+        "text-halo-width": 0.8
+      }
+    },
+    {
+      "id": "place_label_city-nanning",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "maxzoom": 16,
+      "filter": [
+        "all",
+        ["==", "$type", "Point"],
+        ["==", "class", "city"],
+        ["==", "name", "南宁市"]
+      ],
+      "layout": {
+        "text-field": "{name:nonlatin}",
+        "text-font": ["Noto Sans Regular"],
+        "text-max-width": 10,
+        "text-size": {"stops": [[6, 19], [8, 16]]},
+        "icon-allow-overlap": false,
+        "text-offset": [2, 0]
+      },
+      "paint": {
+        "text-color": "rgba(202, 19, 3, 1)",
+        "text-halo-blur": 0,
+        "text-halo-color": "hsla(0, 0%, 100%, 0.75)",
+        "text-halo-width": 3
+      }
+    }
+  ],
+  "id": "basic"
+}
